@@ -1,0 +1,69 @@
+/* Fondo de la página */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #0f1f53;
+  font-family: Arial, sans-serif;
+}
+
+/* Caja del formulario */
+form {
+  background-color: white;
+  padding: 4rem;
+  border-radius: 12px;
+  width: 350px; /* un poquito más ancho */
+  margin: 80px auto;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+/* Etiquetas */
+form label {
+  font-weight: bold;
+  font-size: 16px;  /* 👈 tamaño aumentado */
+  display: block;
+  margin-bottom: 5px;
+}
+
+/* Inputs */
+form input {
+  width: 100%;
+  padding: 14px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  outline: none;
+  font-size: 16px;
+}
+
+/* Botón */
+form button {
+  width: 100%;
+  padding: 14px;
+  background-color: #1a1f1c;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+form button:hover {
+  background-color: #333;
+}
+
+form div:last-child {
+  text-align: center;
+  margin-top: 10px;
+  font-size: 15px;
+}
+
+form div:last-child a {
+  color: black;
+  text-decoration: underline;
+  cursor: pointer;
+  font-size: 15px; 
+}
