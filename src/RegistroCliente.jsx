@@ -74,7 +74,7 @@ function RegistroCliente() {
   }
 
   // telefono
-  if (!/^[0-9]{1,10}$/.test(formData.telefono)) {
+  if (!/^[0-9]{10}$/.test(formData.telefono)) {
     errores.telefono = "El teléfono debe contener 10 dígitos.";
   }
 
