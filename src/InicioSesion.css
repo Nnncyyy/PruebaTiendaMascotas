@@ -1,4 +1,4 @@
-/* Fondo de la página */
+
 body {
   margin: 0;
   padding: 0;
@@ -6,12 +6,11 @@ body {
   font-family: Arial, sans-serif;
 }
 
-/* Caja del formulario */
 form {
   background-color: white;
   padding: 4rem;
   border-radius: 12px;
-  width: 350px; /* un poquito más ancho */
+  width: 350px;
   margin: 80px auto;
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
   display: flex;
@@ -19,15 +18,13 @@ form {
   gap: 1.2rem;
 }
 
-/* Etiquetas */
 form label {
   font-weight: bold;
-  font-size: 16px;  /* 👈 tamaño aumentado */
+  font-size: 16px; 
   display: block;
   margin-bottom: 5px;
 }
 
-/* Inputs */
 form input {
   width: 100%;
   padding: 14px;
@@ -37,7 +34,6 @@ form input {
   font-size: 16px;
 }
 
-/* Botón */
 form button {
   width: 100%;
   padding: 14px;

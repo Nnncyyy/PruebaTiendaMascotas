@@ -1,4 +1,4 @@
-import "./ProductCard.css";
+import "./Carrito.css";
 
 function Productos({ product, onAddToCart }) {
   return (

@@ -3,6 +3,7 @@ import ReactDOM from "react-dom/client"
 import App from './App'
 import InicioSesion from "./InicioSesion"
 import RegistroCliente from "./RegistroCliente"
+import Carrito from "./Carrito"
 
 /*ReactDOM.createRoot(document.getElementById('root')).render(<InicioSesion/>)
 ReactDOM.createRoot(document.getElementById('root')).render(<RegistroCliente/>)
@@ -18,6 +19,7 @@ function Main() {
                 <Route path="/RegistroCliente" element={<RegistroCliente/>}/>
                 <Route path="/inicio-sesion" element={<InicioSesion />} />
                 <Route path="/registro-cliente" element={<RegistroCliente />} />
+                <Route path="/Carrito" element={<Carrito />} />
             </Routes>
         </Router>
     );

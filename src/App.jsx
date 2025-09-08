@@ -27,7 +27,7 @@ const ImageBackground = () => {
     <div>
       <p className="empresa">Sigma Devs</p>
       <Link to="/InicioSesion"><button className="btn botonA">Comenzar</button></Link>
-      <img src="/src/fondo.png" width={"100%"} height={"750px"} alt="DIETAAAS" />
+      <img src="/assets/fondo.png" width={"100%"} height={"750px"} alt="DIETAAAS" />
     </div>
   );
 };
